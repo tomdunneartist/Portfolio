@@ -208,6 +208,16 @@ h4 {
   border-radius: 5px;
 }
 
+.rive-project-img {
+  display: grid;
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1/1;
+  position: relative;
+  background: var(--c-bg-alt);
+  border-radius: 5px;
+}
+
 .project-content-img {
   position: relative;
   top: 0;
@@ -342,6 +352,33 @@ footer small {
 .project-video {
   margin: auto;
   width: 50%;
+  height: auto;
+  border-radius: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  transition: transform 300ms ease-out, box-shadow 300ms ease-out;
+}
+
+.rive-video {
+  margin: auto;
+  width: 30%;
+  height: auto;
+  border-radius: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  transition: transform 300ms ease-out, box-shadow 300ms ease-out;
+}
+
+.rive-video-small {
+  margin: auto;
+  width: 10%;
+  height: auto;
+  border-radius: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  transition: transform 300ms ease-out, box-shadow 300ms ease-out;
+}
+
+.rive-video-large {
+  margin: auto;
+  width: 80%;
   height: auto;
   border-radius: 40px;
   box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
